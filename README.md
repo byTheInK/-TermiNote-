@@ -2,9 +2,9 @@
 # TermiNote 
 Terminal based note app for terminal users.
 
-# TermiNote 2.5 is available for download!
+# TermiNote 2.7 is available for download!
 
-You can download it from Releases. 
+You can download it from Releases or this repo.
 
 > *Warning: If you use v2.0 or v2.1, ``linuxsetup.sh`` file is not working.*
 
@@ -28,7 +28,10 @@ read the *How to run?*)
 Create notes in the folder you are in with the ``create`` command and use these notes while working in the terminal.
 
 ### Add Tags Your Notes
- Now, you can add tags your notes in ``create`` command.
+ Now, you can add tags your notes in ``create`` command and you can edit author with ``edit`` command.
+
+### Add Author Your Notes
+ Now, you can add author your notes in ``create`` command and you can edit author with ``edit`` command.
 
 ### View Your Notes
  Secure your work in the terminal by viewing the notes you created with the ``show`` command. Remember and do not make mistakes.
@@ -58,11 +61,17 @@ Create notes in the folder you are in with the ``create`` command and use these 
 ### Change Note File Format
  You can change file format with ``settings`` command or you can directly edit ``config.ini`` .(.*)
 
-## Other News:
-  - Added config file(.ini)
-  - Added ``configparser`` library for parsing the config file.
-  - Now, you change the note file format. (.txt, .md, oth.) 
-  - Now, note tags is not writing head the note, they writing end the note.
+### Change Note File Encoding
+ You can change default encoding(ex: UTF-8) with ``settings`` command or you can directly edit ``config.ini``.
+
+### Change Default Background
+ You can change default background with ``settings`` command or you can directly edit ``config.ini`` .
+
+### Change Default Warning Background
+ You can change default warning background with ``settings`` command or you can directly edit ``config.ini`` .
+
+### Change Default Success Background
+ You can change default success background with ``settings`` command or you can directly edit ``config.ini`` .
 
 ## Imported libraries in project:
 - sys
