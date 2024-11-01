@@ -1,4 +1,4 @@
-![TermiNote](./docs/terminote.png)
+![TermiNote](./.github/docs/terminote.png)
 # TermiNote 
 Terminal based note app for terminal users.
 
