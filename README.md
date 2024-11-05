@@ -18,7 +18,7 @@ You can run with this command:  ``python terminote.py <option>``
 
 ## How to run in other folders?
 
-You can copy ``terminote.py`` to folder where you working. And you run.(If you don't know how to run this. Please
+You can copy this folder to folder where you working. And you run.(If you don't know how to run this. Please
 read the *How to run?*)
 
 ## What can be done?
