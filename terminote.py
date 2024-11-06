@@ -4,8 +4,21 @@ import shutil
 from colorama import Fore
 import configparser
 
+config_path = 'config.ini'
+if not os.path.exists(config_path):
+    with open(config_path, 'w', encoding="utf-8") as cf:
+        cf.write("""[file]
+extension = .txt
+encoding = UTF-8
+
+[theme]
+background = CYAN
+warning_background = RED
+success_background = GREEN
+""")
+
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read(config_path)
 
 default_extension = config["file"]["extension"]
 default_encoding = config["file"]["encoding"]

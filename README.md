@@ -73,6 +73,9 @@ Create notes in the folder you are in with the ``create`` command and use these 
 ### Change Default Success Background
  You can change default success background with ``settings`` command or you can directly edit ``config.ini`` .
 
+## Other News:
+  Now, if config file is doesn't exists or find, TermiNote is create config file and set default settings.
+
 ## Imported libraries in project:
 - sys
 - os
